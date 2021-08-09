@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff8a6d82eb5008449bf992c890cfa6d, type: 3}
+  m_Name: "an\u0131tkabir"
+  m_EditorClassIdentifier: 
+  "\u0130sim": "An\u0131tkabir"
+  "A\xE7\u0131klama": "T\xFCrk halk\u0131n\u0131n \xF6nderi, T\xFCrkiye Cumhuriyeti
+    kurucusu aziz Mustafa Kemal Atat\xFCrk\u2019\xFCn an\u0131t mezar\u0131d\u0131r.
+    1953 y\u0131l\u0131nda tamamlanan An\u0131tkabir, Ankara\u2019n\u0131n simgesel
+    yap\u0131tlar\u0131ndan biridir. "
+  Resim: {fileID: 21300000, guid: 6b1d47da478e0794db0a33cff6d35bf3, type: 3}
+  "T\xFCr": 2
+  Para: 0
+  Mutluluk: 0

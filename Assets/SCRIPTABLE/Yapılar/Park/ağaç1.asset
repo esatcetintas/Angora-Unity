@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fcc1d7dbf965854ea009dcd59278003, type: 3}
+  m_Name: "a\u011Fa\xE71"
+  m_EditorClassIdentifier: 
+  "B\xFCy\xFCkl\xFCk": 1
+  "BinaT\xFCr\xFC": 1
+  Model: {fileID: 2133807245789380284, guid: 80188adecd005b24d8fbaf0985ffbd92, type: 3}
+  Fiyat: 250
+  Seviye: 1
+  "EtkiAlan\u0131": 10
+  Kira: 100
+  mutluluk: 0
+  "MutlulukArt\u0131\u015FMiktar\u0131": 10
+  "MutlulukAzaltmaMiktar\u0131": 0
+  "KiraArt\u0131\u015FMiktar\u0131": 0

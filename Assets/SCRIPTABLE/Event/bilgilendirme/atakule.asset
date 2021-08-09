@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff8a6d82eb5008449bf992c890cfa6d, type: 3}
+  m_Name: atakule
+  m_EditorClassIdentifier: 
+  "\u0130sim": Atakule
+  "A\xE7\u0131klama": "Ankara\u2019n\u0131n ilk al\u0131\u015Fveri\u015F merkezi
+    \xF6zelli\u011Fini ta\u015F\u0131yan 125 metre y\xFCksekli\u011Findeki Atakule;
+    ismini d\xFCzenlenen bir yar\u0131\u015Fma ile Ankara halk\u0131ndan alm\u0131\u015Ft\u0131r."
+  Resim: {fileID: 21300000, guid: b3b7192323f82254c954a6d21c7686d1, type: 3}
+  "T\xFCr": 2
+  Para: 0
+  Mutluluk: 0

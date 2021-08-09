@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff8a6d82eb5008449bf992c890cfa6d, type: 3}
+  m_Name: "Kum F\u0131rt\u0131nas\u0131"
+  m_EditorClassIdentifier: 
+  "\u0130sim": "Kum F\u0131rt\u0131nas\u0131"
+  "A\xE7\u0131klama": "Ba\u015Fkan\u0131m! B\xFCy\xFCk bir kum f\u0131rt\u0131nas\u0131
+    Ankara'ya yakla\u015F\u0131yor. \xC7ok ge\xE7 olmadan harekete ge\xE7memiz ve
+    \xF6nlemlerimizi almam\u0131z gerek"
+  Resim: {fileID: 21300000, guid: 3106ccb5e5ea89d47b3fb0b26e21a7d3, type: 3}
+  "T\xFCr": 0
+  Para: 1000
+  Mutluluk: 25

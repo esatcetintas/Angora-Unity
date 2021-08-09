@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1927b613524746e42a8e45cfac32069f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - "Yap\u0131Kaynak": {instanceID: 0}
+  - ayarlarKaynak: {instanceID: 0}
+  - Canvas: {fileID: 4951846368269853534, guid: 70fb0bbb8b6be7d44b02b46a6cd951b5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

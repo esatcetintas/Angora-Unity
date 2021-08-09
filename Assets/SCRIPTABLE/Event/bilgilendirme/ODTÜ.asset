@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff8a6d82eb5008449bf992c890cfa6d, type: 3}
+  m_Name: "ODT\xDC"
+  m_EditorClassIdentifier: 
+  "\u0130sim": "ODT\xDC"
+  "A\xE7\u0131klama": "Orta Do\u011Fu Teknik \xDCniversitesi ya da k\u0131saca ODT\xDC,
+    15 Kas\u0131m 1956 tarihinde Ankara'da kurulan k\xF6kl\xFC bir \xFCniversitedir.
+    M\xFChendislik ve do\u011Fa bilimleri alan\u0131nda T\xFCrkiye'de \xF6nde gelen
+    \xFCniversitelerden biri olan ODT\xDC b\xFCnyesinde 2015 verilerine g\xF6re 26.500
+    \xF6\u011Frenci bulundurmaktad\u0131r."
+  Resim: {fileID: 21300000, guid: 475ebee1c4763f34ba3b7a5a7818f9ca, type: 3}
+  "T\xFCr": 2
+  Para: 0
+  Mutluluk: 0
