@@ -1396,7 +1396,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 687127580}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2285,6 +2285,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290658401}
   m_CullTransparentMesh: 0
+--- !u!1 &301429073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 301429076}
+  - component: {fileID: 301429075}
+  - component: {fileID: 301429074}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: zemin
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!154 &301429074
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301429073}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: d1eaff085eb06584082e8e3474ddd2ff, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &301429075
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301429073}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: d1eaff085eb06584082e8e3474ddd2ff, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0128
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!4 &301429076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301429073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25, y: 0, z: -25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &301839269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,7 +3130,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 687127580}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -3337,7 +3413,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 687127580}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3831,7 +3907,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A\u011Fa\xE7 1"
+  m_Text: Ev 1
 --- !u!222 &444955939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5195,7 +5271,7 @@ GameObject:
   - component: {fileID: 648133934}
   - component: {fileID: 648133933}
   m_Layer: 5
-  m_Name: "A\u011Fa\xE7"
+  m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5827,7 +5903,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dinozor Heykeli
+  m_Text: Ev 4
 --- !u!222 &672292538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5854,7 +5930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &674491900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6032,11 +6108,11 @@ RectTransform:
   - {fileID: 53880088}
   - {fileID: 1687010735}
   - {fileID: 1831268895}
+  - {fileID: 1373364723}
   - {fileID: 156323081}
   - {fileID: 374028117}
   - {fileID: 883546542}
   - {fileID: 408089525}
-  - {fileID: 1373364723}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6569,7 +6645,7 @@ GameObject:
   - component: {fileID: 797338549}
   - component: {fileID: 797338548}
   m_Layer: 5
-  m_Name: Heykel2
+  m_Name: House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6915,7 +6991,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Baypazar\u0131 Heykeli"
+  m_Text: Ev 3
 --- !u!222 &842379040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7189,7 +7265,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 687127580}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -8063,7 +8139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &970647567
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8211,7 +8287,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ulus Heykeli
+  m_Text: Ev 5
 --- !u!222 &975647555
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11232,7 +11308,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A\u011Fa\xE7 2"
+  m_Text: Ev 2
 --- !u!222 &1340536112
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11317,7 +11393,7 @@ RectTransform:
   - {fileID: 797338547}
   - {fileID: 2111701180}
   m_Father: {fileID: 687127580}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11772,8 +11848,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1737109156}
         m_TargetAssemblyTypeName: Butonlar, Assembly-CSharp
-        m_MethodName: "Yap\u0131PenceresiA\xE7"
-        m_Mode: 3
+        m_MethodName: HousePanel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12586,7 +12662,7 @@ GameObject:
   - component: {fileID: 1549883817}
   - component: {fileID: 1549883816}
   m_Layer: 5
-  m_Name: "A\u011Fa\xE72"
+  m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14089,6 +14165,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e844c1de43a1c6d49ba34d10ce0efff2, type: 2}
   - {fileID: 11400000, guid: cc913b587abc31048849b04c95d37699, type: 2}
   - {fileID: 11400000, guid: 0cd8ee46d6e39384f92527d44ffbb917, type: 2}
+  - {fileID: 11400000, guid: b49f07188dc2e8846a0b89691c52267e, type: 2}
+  - {fileID: 11400000, guid: 0ffa14ba333d588488e6fd68b4c96751, type: 2}
+  - {fileID: 11400000, guid: 08c9249868846f34bad291e41ba5f683, type: 2}
+  - {fileID: 11400000, guid: e844c1de43a1c6d49ba34d10ce0efff2, type: 2}
+  - {fileID: 11400000, guid: cc913b587abc31048849b04c95d37699, type: 2}
   AyarlarKaynak: {fileID: 1737109157}
   TileKaynak: {fileID: 1737109154}
   "BinaTa\u015F\u0131maKaynak": {fileID: 1737109159}
@@ -14098,6 +14179,14 @@ MonoBehaviour:
   "ParkEkran\u0131": {fileID: 1687010734}
   housePanel: {fileID: 0}
   "YolEkran\u0131": {fileID: 1831268894}
+  Panels:
+  - {fileID: 1466464656}
+  - {fileID: 474616154}
+  - {fileID: 2080740966}
+  - {fileID: 53880087}
+  - {fileID: 1687010734}
+  - {fileID: 1831268894}
+  - {fileID: 1373364722}
 --- !u!114 &1737109157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15434,7 +15523,7 @@ GameObject:
   - component: {fileID: 2016065088}
   - component: {fileID: 2016065087}
   m_Layer: 5
-  m_Name: "Baypazar\u0131"
+  m_Name: House3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16138,7 +16227,7 @@ GameObject:
   - component: {fileID: 2111701182}
   - component: {fileID: 2111701181}
   m_Layer: 5
-  m_Name: Heykel3
+  m_Name: House5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

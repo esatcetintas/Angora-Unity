@@ -19,16 +19,28 @@ public class Butonlar : MonoBehaviour
     public GameObject ParkEkranı;
     public GameObject housePanel;
     public GameObject YolEkranı;
+    public GameObject[] Panels;
     private void Start()
     {
-        YapılarUI.SetActive(true);
-        YapıPenceresiUI.SetActive(false);
-        LandmarkPenceresi.SetActive(false);
-        YapıImage.SetActive(false);
-        EventEkranı.SetActive(false);
-        ParkEkranı.SetActive(false);
-        YolEkranı.SetActive(false);
+        OpenPanel(0);
     }
+
+
+
+    public void OpenPanel(int val)
+	{
+        foreach(GameObject panel in Panels)
+		{
+            if(panel == Panels[val])
+			{
+                panel.SetActive(true);
+			}
+            else
+			{
+                panel.SetActive(false);
+			}
+		}
+	}
 
     public void YapıPenceresiAç(int Sıra )
     {
@@ -57,54 +69,29 @@ public class Butonlar : MonoBehaviour
             Yerleştirici = Yerleştirilen;
         }
 
-        YolEkranı.SetActive(false);
-        ParkEkranı.SetActive(false);
-        YapılarUI.SetActive(false);
-        YapıPenceresiUI.SetActive(true);
-        LandmarkPenceresi.SetActive(false);
-        EventEkranı.SetActive(false);
+        OpenPanel(1);
     }
 
 
     public void Landmark()
 	{
-        YapılarUI.SetActive(false);
-        YapıPenceresiUI.SetActive(false);
-        LandmarkPenceresi.SetActive(true);
-        EventEkranı.SetActive(false);
-        ParkEkranı.SetActive(false);
-        YolEkranı.SetActive(false);
+        OpenPanel(2);
     }
 
     public void Yollar()
     {
-        YapılarUI.SetActive(false);
-        YapıPenceresiUI.SetActive(false);
-        LandmarkPenceresi.SetActive(false);
-        EventEkranı.SetActive(false);
-        ParkEkranı.SetActive(false);
-        YolEkranı.SetActive(true);
+        OpenPanel(5);
     }
 
 
     public void ParkAç()
     {
-        YapılarUI.SetActive(false);
-        YapıPenceresiUI.SetActive(false);
-        LandmarkPenceresi.SetActive(false);
-        EventEkranı.SetActive(false);
-        ParkEkranı.SetActive(true);
-        YolEkranı.SetActive(false);
+        OpenPanel(4);
     }
 
     public void HousePanel()
     {
-        YapılarUI.SetActive(false);
-        YapıPenceresiUI.SetActive(false);
-        LandmarkPenceresi.SetActive(false);
-        EventEkranı.SetActive(false);
-        ParkEkranı.SetActive(true);
-        YolEkranı.SetActive(false);
+        OpenPanel(6);
     }
 
     public void Yerleştir()
@@ -166,13 +153,7 @@ public class Butonlar : MonoBehaviour
 
     public void EventAç()
 	{
-        YapılarUI.SetActive(false);
-        YapıPenceresiUI.SetActive(false);
-        LandmarkPenceresi.SetActive(false);
-        EventEkranı.SetActive(true);
-        ParkEkranı.SetActive(false);
-
-
+        OpenPanel(3);
     }
 
 
