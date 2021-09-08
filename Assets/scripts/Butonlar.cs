@@ -17,6 +17,7 @@ public class Butonlar : MonoBehaviour
     public belediye BelediyeKaynak;
     public GameObject EventEkranı;
     public GameObject ParkEkranı;
+    public GameObject housePanel;
     public GameObject YolEkranı;
     private void Start()
     {
@@ -96,6 +97,15 @@ public class Butonlar : MonoBehaviour
         YolEkranı.SetActive(false);
     }
 
+    public void HousePanel()
+    {
+        YapılarUI.SetActive(false);
+        YapıPenceresiUI.SetActive(false);
+        LandmarkPenceresi.SetActive(false);
+        EventEkranı.SetActive(false);
+        ParkEkranı.SetActive(true);
+        YolEkranı.SetActive(false);
+    }
 
     public void Yerleştir()
     {
