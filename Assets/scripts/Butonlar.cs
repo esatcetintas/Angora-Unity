@@ -94,6 +94,12 @@ public class Butonlar : MonoBehaviour
         OpenPanel(6);
     }
 
+    public void FactoryPanel()
+    {
+        OpenPanel(7);
+    }
+
+
     public void Yerleştir()
     {
         Yerleştirici.GetComponent<yerles>().BinaYerleştir();
@@ -183,18 +189,12 @@ public class Butonlar : MonoBehaviour
 
     public void Geri()
     {
-        GameObject.Destroy(GameObject.Find("merkez"));
-        GameObject.Destroy(Yerleştirici);
+        Destroy(GameObject.Find("merkez"));
+        Destroy(Yerleştirici);
 
         BinaTaşımaKaynak.Taşınabilir = true;
         MK.HareketliMi = true;
-        YapılarUI.SetActive(true);
-        YapıPenceresiUI.SetActive(false);
-        LandmarkPenceresi.SetActive(false);
-        YapıImage.SetActive(false);
-        EventEkranı.SetActive(false);
-        ParkEkranı.SetActive(false);
-        YolEkranı.SetActive(false);
+        OpenPanel(0);
     }
 
 }
